@@ -1,7 +1,7 @@
 import type { NowRequest, NowResponse } from '@now/node'
 import axios from 'axios'
 
-const URL = 'https://api.github.com/users/mrmartineau/starred'
+const URL = 'https://api.github.com/users/uvacoder/starred'
 
 export default async (req: NowRequest, res: NowResponse) => {
   const { data } = await axios(URL)
